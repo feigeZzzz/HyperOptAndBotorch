@@ -1,0 +1,4 @@
+该文档主要是做Hyperopt和botorch调参模块的对比
+Hyperopt和botorch的原理都是利用贝叶斯优化
+Hyperopt拟合目标函数的方法是使用基于树模型的tpe算法
+botorch是基于高斯回归的拟合方法，并利用采样函数得到下一个点参数
